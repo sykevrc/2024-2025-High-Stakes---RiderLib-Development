@@ -1,0 +1,31 @@
+#PATH-POINTS-START Path
+-127,91.44,120,300
+-125.203,90.561,120
+-123.406,89.683,120
+-121.609,88.806,120
+-119.812,87.929,120
+-118.013,87.054,120
+-116.215,86.179,120
+-114.415,85.306,120
+-112.614,84.436,120
+-110.812,83.57,120
+-109.006,82.709,120
+-107.195,81.862,120
+-105.358,81.072,120
+-103.451,80.659,120
+-101.597,79.907,120
+-99.76,79.118,120
+-97.929,78.313,120
+-96.103,77.498,120
+-94.279,76.676,120
+-92.458,75.849,120
+-90.639,75.019,120
+-88.82,74.186,120
+-87.004,73.35,120
+-85.188,72.512,120
+-83.372,71.672,120
+-81.558,70.83,120
+-79.744,69.988,120
+-77.538,68.96,120,300
+-77.538,68.96,0,300
+#PATH.JERRYIO-DATA {"appVersion":"0.7.0","format":"path.jerryio v0.1.x (cm, rpm)","gc":{"robotWidth":11.811023622047244,"robotHeight":11.811023622047244,"robotIsHolonomic":false,"showRobot":false,"uol":2.54,"pointDensity":0.7874015748031495,"controlMagnetDistance":1.968503937007874,"fieldImage":{"displayName":"V5RC 2025 - High Stakes","signature":"V5RC 2025 - High Stakes","origin":{"__type":"built-in"}}},"paths":[{"segments":[{"controls":[{"uid":"Jg3cBhGPaA","x":-50,"y":36,"lock":false,"visible":true,"heading":300,"__type":"end-point"},{"uid":"bpjYNgz7Bx","x":-32.3143637481762,"y":27.348423904898567,"lock":false,"visible":true,"__type":"control"},{"uid":"zIFssb4v0Z","x":-50.986297558900084,"y":36.68439081026051,"lock":false,"visible":true,"__type":"control"},{"uid":"BcBPHUrynF","x":-30.52662540459625,"y":27.14978631116746,"lock":false,"visible":true,"heading":300,"__type":"end-point"}],"speedProfiles":[],"lookaheadKeyframes":[],"uid":"eNkgyOt0lb"}],"pc":{"speedLimit":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":600,"label":"600"},"step":1,"from":40,"to":120},"bentRateApplicableRange":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":1,"label":"1"},"step":0.001,"from":0,"to":0.1}},"name":"Path","uid":"GVJncbAqQu","lock":false,"visible":true}]}
