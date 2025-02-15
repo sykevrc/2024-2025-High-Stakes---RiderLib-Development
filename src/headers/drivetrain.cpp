@@ -11,26 +11,26 @@ using namespace lemlib;
 Controller controller(E_CONTROLLER_MASTER);
 
 // motor groups
-MotorGroup leftMotors({-8,9,-10},MotorGearset::blue); // left motor group - ports 3 (reversed), 4, 5 (reversed)
-MotorGroup rightMotors({1,2,-3}, MotorGearset::blue); // right motor group - ports 6, 7, 9 (reversed)
+MotorGroup leftMotors({18,-19,-7},MotorGearset::blue); // left motor group - ports 3 (reversed), 4, 5 (reversed)
+MotorGroup rightMotors({-11,12,3}, MotorGearset::blue); // right motor group - ports 6, 7, 9 (reversed)
 
-Motor intake(-19,MotorGearset::green);
-Motor fastintake(17,MotorGearset::blue);
+Motor intake(-20,MotorGearset::green);
+Motor fastintake(-14,MotorGearset::blue);
 
-Motor arm(7,MotorGearset::red);
+Motor arm(10,MotorGearset::green);
 // Inertial Sensor on port 10
-Imu imu(11);
-
-
+Imu imu(8);
+Optical color(9);
+Distance dist(17);
 // tracking wheels
 // horizontal tracking wheel encoder. Rotation sensor, port 20, reversed
-Rotation horizontalEnc(16);
+Rotation horizontalEnc(1);
 // vertical tracking wheel encoder. Rotation sensor, port 11, reversed
-Rotation verticalEnc(-18);
+Rotation verticalEnc(2);
 // horizontal tracking wheel. 2.75" diameter, 5.75" offset, back of the robot (negative)
-lemlib::TrackingWheel horizontal(&horizontalEnc, lemlib::Omniwheel::NEW_2, -5);
+lemlib::TrackingWheel horizontal(&horizontalEnc, 2, -7.5);
 // vertical tracking wheel. 2.75" diameter, 2.5" offset, left of the robot (negative)
-lemlib::TrackingWheel vertical(&verticalEnc, lemlib::Omniwheel::NEW_2, -2.25);
+lemlib::TrackingWheel vertical(&verticalEnc, 2, -3.35);
 adi::Pneumatics clamp(1, false);
 adi::Pneumatics doink(8, false);
 
